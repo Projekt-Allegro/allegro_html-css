@@ -1,0 +1,59 @@
+.logo {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.pasek {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 0px;
+    background-color: lightgrey;
+}
+
+.pasek a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 0px 30px;
+    color: black;
+    text-decoration-line: none;
+}
+
+.pasek a:hover {
+    background-color: #777;
+    color: whitesmoke;
+}
+    
+.stopka {
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    padding: 7px;
+    background-color: lightgrey;
+    
+}
+
+.stopka a {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    padding: 0px 20px;
+    color: black;
+    text-decoration-line: none;
+    text-transform: uppercase;
+}
+
+.stopka p {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+}
+
+.stopka a:hover {
+    background-color: #777;
+    color: whitesmoke;
+}
