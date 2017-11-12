@@ -4,41 +4,60 @@
         <meta charset="utf-8">
         <title>Komis używanych samochodów</title>
         <link rel="stylesheet" type="text/css" href="alegro.css">
-        
-        <div class="header">
-            <div class="logo">
-                <img src="car.png" style="float:left"/>
-                <span style="color:#c12230">retro</span>car.com
-                <div style="clear: both"></div>
-                </div>
-            </div>
-        
         <script type="text/javascript">
             alert("Akceptuję politykę cookies i regulamin strony oraz sklepu internetowego")
         </script>
     </head>
     
-        <body>   
+        <body>  
+        <div id="container">
+            <div id="header">
+                <div class="logo">
+                    <img src="car.png" style="float:left"/>
+                    <span style="color:#c12230">retro</span>car.com
+                    <div style="clear: both"></div>
+                </div>
+            </div>
 
-        <div class="pasek">
-          <a href="#start">Start   </a>
-          <a href="#oferta">Oferta</a>
-          <a href="#promocje">Promocje</a>
-          <a href="#ulubione">Ulubione</a>
+        <div id="pasek">
+            <ol>
+                  <li><a href="#start">Start</a></li>
+                  <li><a href="#oferta">Oferta</a>
+                    <ul>
+                        <li><a href="#samochody">Samochody</a></li>
+                        <li><a href="#mototcykle">Motocykle</a></li>
+                        <li><a href="#inne">Inne</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#marki">Marki</a>
+                      <ul>
+                        <li><a href="#ford">Ford</a></li>
+                        <li><a href="#bmw">BMW</a></li>
+                        <li><a href="#mazda">Mazda</a></li>
+                        <li><a href="#volkswagen">Volkswagen</a></li>
+                        <li><a href="#fiat">Fiat</a></li>
+                    </ul>
+                  </li>
+                <li><a href="#ulubione">Ulubione</a></li>
+            </ol>
+            <div style="clear: both"></div>
         </div>
-            
-            
-            
             
         <div class="opis">
             <p>  AUTO KOMIS RETROCAR <br>Skup, sprzedaż, zamiana, komis.<br><br>Godziny otwarcia<br>pon-piąt.: 10 : 00 - 17 : 00<br>sobota: 10 : 00 - 14 : 00<br>niedziela: 11 : 00 - 14 : 00<br><br>Adres<br>Wrocławska 96, 45-711 Opole, woj. opolskie<br><br>Telefony<br>tel. 77 4411899 &nbsp kom. 600 012 741<br></p>
         </div>
             
+        <div id="okomisie">
+            <div id="naglowek2"><h2>Co można powiedzieć o naszym komisie?</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis feugiat turpis condimentum aliquam. Aenean at sem sit amet purus efficitur egestas quis eu orci. Vestibulum faucibus luctus enim, in dictum odio ullamcorper a. Phasellus sed augue lorem. Praesent nunc lorem, cursus vel mattis nec, cursus non mauris. Quisque sodales, magna ac accumsan rutrum, risus eros aliquam dolor, id euismod dui libero quis dolor. Sed condimentum dolor lectus, vitae ornare urna semper quis. Quisque eu ipsum quis lorem laoreet eleifend. Phasellus ac elit nec ante vulputate tristique.</p>
+            <p>Morbi imperdiet orci non felis molestie dictum. Quisque finibus fermentum diam in tempus. Phasellus in iaculis neque. Nunc nec ipsum nulla. Duis quis venenatis nunc. Cras eros ipsum, pulvinar in quam non, rhoncus tincidunt metus. Sed et ipsum a felis eleifend eleifend. Praesent finibus sagittis pulvinar. Mauris ornare ac arcu vitae tincidunt.</p>
+            </div>
+            <div style="clear:both"></div>
             
-        <div class="szukacz">      <!--to się wrzuci do ofert i tam bd                                  szukać z bazy-->
+        <div id="szukacz">      <!--to się wrzuci do ofert i tam bd                                  szukać z bazy-->
     <fieldset><legend>Wyszukiwarka samochodów</legend>
 	<form action = "probne.php" method = "post">
-		Czego szukasz?:<input type = "text" name = "1">
+		Czego szukasz?:<input type = "text" name = "1" value="&quot;1&quot;"><br>
 
         Marka:<select name="kat">
           <option value="">brak</option>
@@ -66,6 +85,6 @@
             <a href="/regulamin/">Regulamin</a>
             <p>Stworzone przez: Grove Street™</p>
         </div>
-        
-    </body>
+    </div>     
+  </body>
 </html>

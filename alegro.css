@@ -1,64 +1,134 @@
-html, body {
-    height: 100%;
-    overflow: hidden;
+body {
+        background-color: #444444;
+        margin: 0; 
 }
 
-.header {
+#container {
+    overflow: hidden;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFFFF;
+}
+
+#header {
     width 100%;
     padding: 15px 0;
+   background-color: #444444;
 }
 
 .logo {
     width: 540px;
     font-size: 70px;
-    font-family: 'Lato', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.pasek {
+#pasek {
     display: block;
+    padding: 10px 0;
+    width: 1600px;
+    background-color: #c12230;
     text-align: center;
-    margin-top: 10px;
-    padding: 12px 0px;
-    background-color: lightgrey;
 }
 
-.pasek a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    padding: 0px 40px;
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    line-height: 300%;
+    display: inline-block;
+    height: 45px;
+}
+
+ol a {
+    display: block;
+    font-size: 30px;
     color: black;
     text-decoration-line: none;
-    letter-spacing: 1px;
 }
 
-.pasek a:hover {
-    background-color: #777;
-    color: whitesmoke;
+ol > li {
+    float: left;
+    width: 220px;
+    height: 50px;
+    border-right: 2px dotted black;
+    justify-content: center;
 }
 
+ol > li:hover {
+    background-color: #dd3c49; 
+}
+
+ol > li:first-child {
+    border-left: 1px dashed black;
+}
+
+ol > li:hover >a {
+    color: #ffffe6;
+}
+
+ol > li:hover > ul {
+    display: block;
+}
+
+ol > li > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: none;
+}
+
+ol > li > ul > li {
+    background-color: #dd3c49;
+    position: relative;
+    border-top: 1px dashed black;
+}
+
+ol > li > ul > li:hover > a {
+    color:#ffffe6;
+}
+
+ol > li > ul > li > a {
+    font-size: 25px; 
+}
 
 .opis {
     display: block;
     margin-top: 30px;
     padding: 30px;
-    width: 100%;
+    width: 500px;
     text-align: center;
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 20px;
+    float: right;
+    height: 370px;
+    border-left: 2px dotted #c12230;
 }
 
+#okomisie {
+    width: 998px;
+    height: 370px;
+    padding: 20px;
+    margin-top: 40px;
+    float:left;
+    font-size: 18px;
+    text-align: justify;
+}
 
-.szukacz {
-    display: block;
-    margin-top: 20px;
-    padding: 30px 0;
-    width: 90%;
+#naglowek2 {
+    text-align: justify;
+    color:#c12230;
+}
+
+#szukacz {
+    margin-top: 30px;
+    padding: 30px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
     text-align: center;
 }
@@ -77,7 +147,6 @@ html, body {
 }
 
 .stopka a {
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 20px;
     padding: 0px 20px;
     color: black;
@@ -86,11 +155,10 @@ html, body {
 }
 
 .stopka p {
-    font-family: 'Barlow Condensed', sans-serif;
     text-align: center;
 }
 
 .stopka a:hover {
     background-color: #777;
-    color: whitesmoke;
+    color: #c12230;
 }
