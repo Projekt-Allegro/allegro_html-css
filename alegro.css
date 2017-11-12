@@ -1,28 +1,40 @@
 .logo {
-    display: block;
     display: flex;
     justify-content: center;
+    
 }
 
 .pasek {
     display: block;
     text-align: center;
     margin-top: 20px;
-    padding: 15px 0px;
+    padding: 12px 0px;
     background-color: lightgrey;
 }
 
 .pasek a {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    padding: 0px 30px;
+    padding: 0px 40px;
     color: black;
     text-decoration-line: none;
+    letter-spacing: 1px;
 }
 
 .pasek a:hover {
     background-color: #777;
     color: whitesmoke;
+}
+
+
+.szukacz {
+    display: block;
+    margin-top: 30px;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 19px;
 }
     
 .stopka {
@@ -36,7 +48,6 @@
     height: 60px;
     padding: 7px;
     background-color: lightgrey;
-    
 }
 
 .stopka a {
