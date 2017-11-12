@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
 .logo {
     display: flex;
     justify-content: center;
@@ -27,14 +33,25 @@
 }
 
 
-.szukacz {
+.opis {
     display: block;
     margin-top: 30px;
     padding: 30px;
     width: 100%;
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 19px;
+    font-size: 20px;
+}
+
+
+.szukacz {
+    display: block;
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
 }
     
 .stopka {
