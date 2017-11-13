@@ -57,22 +57,34 @@
         <div id="szukacz">      <!--to się wrzuci do ofert i tam bd                                  szukać z bazy-->
     <fieldset><legend>Wyszukiwarka samochodów</legend>
 	<form action = "probne.php" method = "post">
-		Czego szukasz?:<input type = "text" name = "1" value="&quot;1&quot;"><br>
+		Czego szukasz?:<input type = "text" name = "1"><br>
 
-        Marka:<select name="kat">
+        Kolor :<select name="kat">
           <option value="">brak</option>
-          <option value="ford">Ford</option>
-          <option value="audi">Audi</option>
-          <option value="honda">Honda</option>
-          <option value="peugeot">Peugeot</option>
+          <option value="'czarny'">czarny</option>
+          <option value="'czerwony'">czerwony</option>
+          <option value="'niebieski'">niebieski</option>
+          <option value="'zielony'">zielony</option>
         </select>
 
 		Cena: <select name="cena">
-              <option value="<">mniejsza od</option>
-              <option value=">">większa od</option>
+              <option value="">brak</option>
+              <option value="cena_pln < 10000">mniejsza od 10000</option>
+              <option value="cena_pln < 20000">mniejsza od 20000</option>
+              <option value="cena_pln < 30000">mniejsza od 30000</option>
+              <option value="cena_pln < 50000">mniejsza od 50000</option>
+              <option value="cena_pln < 70000">mniejsza od 70000</option>
+              <option value="cena_pln < 100000">mniejsza od 100000</option>
         </select>
         
-        Wartość:<input type = "text" name = "cena1">
+        Przebieg :<select name="przebieg">
+              <option value="">brak</option>
+              <option value="przebieg < 100000">mniejszy od 100000</option>
+              <option value="przebieg < 200000">mniejszy od 200000</option>
+              <option value="przebieg < 300000">mniejszy od 300000</option>
+              <option value="przebieg < 500000">mniejszy od 500000</option>
+              <option value="przebieg < 700000">mniejszy od 700000</option>
+              <option value="przebieg < 1000000">mniejszy od 1000000</option>
         
 		<input type = "submit" name = "submit" value = "sprawdź">
 	   </form></fieldset>
