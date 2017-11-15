@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+	<title>
+		Skelp
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+#logo { float: left; height: 200px; width: 200px}
+#background {
+	background-position: right;
+}
+
+.title
+ {
+display:none;
+ color:#EDEDED;
+ font-family:verdana;
+ font-size:25px;
+ width:350px;
+ margin-top:6px;
+ margin-left:150px;
+ font-weight:bold;
+ float:right;
+}
+
+
+#navigation
+{
+ list-style-type:none; 
+}
+
+
+li 
+{ 
+border-right: 3px solid #A9A9A9;
+display:inline;
+ padding:15px;
+ }
+#nav a
+{
+font-size: 1.6em;
+text-transform: uppercase;
+ font-weight: bold;
+ font-family:century gothic;
+  text-decoration:none;
+ color:#262626;
+} 
+ #nav a:hover 
+{
+opacity:0.36;
+}
+	li:last-child {
+    border-right: none;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: #696969;
+    padding: 20px; 
+    width: 1200px;
+    height: 40px;    
+}
+
+</style>
+<body bgcolor="#A9A9A9">
+	<div id='nav'>
+    <img src="http://media.tmz.com/2016/02/23/022316-beetlejuice-kal-1080x608.jpg" id="logo" />
+  <ul id="rcorners1">
+    <li class='navigation-glowna'><a href='#'>Główna</a></li>
+    <li class='navigation-nowosci'><a href='#'>Nowości</a></li>
+    <li class='navigation-promocje'><a href='#'>Promocje</a></li>
+    <li class='navigation-godziny'><a href='#'>Godziny otw.</a></li>
+    <li class='navigation-kontakt'><a href='#'>Kontakt</a></li>
+    <li class='navigation-pupile'><a href='#'>Coś</a></li>
+  </ul>
+</div>
+</body>
+</html>
