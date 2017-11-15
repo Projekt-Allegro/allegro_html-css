@@ -4,6 +4,7 @@ body {
 }
 
 #container {
+    overflow: hidden;
     width: 1600px;
     margin-right: auto;
     margin-left: auto;
@@ -12,14 +13,13 @@ body {
 }
 
 #header {
-    width: 100%;
+    width 100%;
     padding: 15px 0;
-    background-color: #444444;
-    height: 170px;
+   background-color: #444444;
 }
 
 .logo {
-    width: 640px;
+    width: 540px;
     font-size: 70px;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +30,7 @@ body {
 #pasek {
     display: block;
     padding: 10px 0;
-    width: 100%;
+    width: 1600px;
     background-color: #c12230;
     text-align: center;
 }
@@ -53,7 +53,7 @@ ol a {
 
 ol > li {
     float: left;
-    width: 200px;
+    width: 220px;
     height: 50px;
     border-right: 2px dotted black;
     justify-content: center;
@@ -101,7 +101,7 @@ ol > li > ul > li > a {
     display: block;
     margin-top: 30px;
     padding: 30px;
-    width: 33%;
+    width: 500px;
     text-align: center;
     font-size: 20px;
     float: right;
@@ -109,8 +109,8 @@ ol > li > ul > li > a {
     border-left: 2px dotted #c12230;
 }
 
-#o_komisie {
-    width:60%;
+#okomisie {
+    width: 998px;
     height: 370px;
     padding: 20px;
     margin-top: 40px;
@@ -120,7 +120,7 @@ ol > li > ul > li > a {
 }
 
 #naglowek2 {
-    text-align: center;
+    text-align: justify;
     color:#c12230;
 }
 
@@ -132,9 +132,34 @@ ol > li > ul > li > a {
     font-size: 18px;
     text-align: center;
 }
-    
+
+.szukacz_graf #przycisk {
+    background: #c12230;
+    border: none;
+    padding: 7px 21px 7px 21px;
+    color: #000000;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.szukacz_graf #przycisk:hover {
+    background-color: #dd3c49;
+    color: #FFFFFF;
+}
+
+.szukacz_graf select {
+    font-size: 17px;
+}
+
+.szukacz_graf input[type=text] {
+    line-height: 17px;
+    font-size: 16px;
+}
+
 .stopka {
-    position: stciky;
+    position: absolute;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
