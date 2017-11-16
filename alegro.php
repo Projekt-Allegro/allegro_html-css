@@ -13,7 +13,7 @@
         <div id="container">
             <div id="header">
                 <div class="logo">
-                    <img src="car.png" style="float:left"/>
+                    <img src="https://newcdn.iconfinder.com/data/icons/fast-cars-1/512/McLaren_F1_Red-128.png" style="float:left"/>
                     <span style="color:#c12230">retro</span>car.com
                     <div style="clear: both"></div>
                 </div>
