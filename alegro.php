@@ -4,13 +4,10 @@
         <meta charset="utf-8">
         <title>Komis używanych samochodów</title>
         <link rel="stylesheet" type="text/css" href="alegro.css">
-        <script type="text/javascript">
-            alert("Akceptuję politykę cookies i regulamin strony oraz sklepu internetowego")
-        </script>
     </head>
     
         <body>  
-        <div id="container">
+        <div class="container">
             <div id="header">
                 <div class="logo">
                     <img src="https://newcdn.iconfinder.com/data/icons/fast-cars-1/512/McLaren_F1_Red-128.png" style="float:left"/>
@@ -53,57 +50,6 @@
             <p>Morbi imperdiet orci non felis molestie dictum. Quisque finibus fermentum diam in tempus. Phasellus in iaculis neque. Nunc nec ipsum nulla. Duis quis venenatis nunc. Cras eros ipsum, pulvinar in quam non, rhoncus tincidunt metus. Sed et ipsum a felis eleifend eleifend. Praesent finibus sagittis pulvinar. Mauris ornare ac arcu vitae tincidunt.</p>
             </div>
             <div style="clear:both"></div>
-            
-        <div id="szukacz" class="szukacz_graf">       <!--to się wrzuci do ofert i tam bd szukać z bazy-->
-    <fieldset><legend>Wyszukiwarka samochodów</legend>
-	<form action = "baza.php" method = "post">
-		Czego szukasz?:<input type = "text" name = "1" value=""><br>
-
-        Marka: <?php
-        $con=mysqli_connect("localhost","root","","komis");
-        if (mysqli_connect_errno())
-          {
-          echo "Failed to connect to MySQL: " . mysqli_connect_error();
-          }
-
-        $sql="select distinct marka FROM auto"; 
-        if ($result=mysqli_query($con,$sql))
-          {
-          echo '<select name="nazwa" size="1">';
-		  echo '<option disabled selected value></option>>';
-          while ($row=mysqli_fetch_assoc($result)){
-            echo '<option value="'. $row["marka"] .'">'. $row["marka"] .'</option>';
-            }
-            echo '</select>';
-
-          mysqli_free_result($result);
-        }
-        mysqli_close($con);
-        ?>
-		
-		Cena: <select name="cena">
-              <option value="">brak</option>
-              <option value="cena_pln < 10000">mniejsza od 10000</option>
-              <option value="cena_pln < 20000">mniejsza od 20000</option>
-              <option value="cena_pln < 30000">mniejsza od 30000</option>
-              <option value="cena_pln < 50000">mniejsza od 50000</option>
-              <option value="cena_pln < 70000">mniejsza od 70000</option>
-              <option value="cena_pln < 100000">mniejsza od 100000</option>
-        </select>
-        
-        Przebieg :<select name="przebieg">
-              <option value="">brak</option>
-              <option value="przebieg < 100000">mniejszy od 100000</option>
-              <option value="przebieg < 200000">mniejszy od 200000</option>
-              <option value="przebieg < 300000">mniejszy od 300000</option>
-              <option value="przebieg < 500000">mniejszy od 500000</option>
-              <option value="przebieg < 700000">mniejszy od 700000</option>
-              <option value="przebieg < 1000000">mniejszy od 1000000</option>
-			  </select>
-        
-		<input type = "submit" id = "przycisk" value = "sprawdź">
-	   </form></fieldset>
-            </div>
                    
         <div class="stopka">
             <a href="/onas/">O nas</a> 

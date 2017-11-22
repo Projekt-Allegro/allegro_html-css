@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-#container {
+.container {
     overflow: hidden;
     width: 1200px;
     margin-right: auto;
@@ -11,6 +11,17 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: #FFFFFF;
 }
+
+
+.container_oferta {
+    overflow: hidden;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFFFF;
+}
+
 
 #header {
     width: 100%;
@@ -125,7 +136,6 @@ ol > li > ul > li > a {
 }
 
 #szukacz {
-    margin-top: 30px;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -191,7 +201,9 @@ ol > li > ul > li > a {
 }
 
 #oferta {
-	height: 400px;
-    margin: 30px;
-	padding: 40px;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+    margin: 10px;
+		
 }
