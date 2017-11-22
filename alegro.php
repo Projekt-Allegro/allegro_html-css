@@ -21,8 +21,8 @@
 
         <div id="pasek">
             <ol>
-                  <li><a href="#start">Start</a></li>
-                  <li><a href="#oferta">Oferta</a>
+                  <li><a href="/alegro.php">Start</a></li>
+                  <li><a href="/alegro1.php">Oferta</a>
                     <ul>
                         <li><a href="#samochody">Samochody</a></li>
                         <li><a href="#mototcykle">Motocykle</a></li>
@@ -44,7 +44,7 @@
         </div>
             
         <div class="opis">
-            <p>  AUTO KOMIS RETROCAR <br>Skup, sprzedaż, zamiana, komis.<br><br>Godziny otwarcia<br>pon-piąt.: 10 : 00 - 17 : 00<br>sobota: 10 : 00 - 14 : 00<br>niedziela: 11 : 00 - 14 : 00<br><br>Adres<br>Wrocławska 96, 45-711 Opole, woj. opolskie<br><br>Telefony<br>tel. 77 4411899 &nbsp kom. 600 012 741<br></p>
+            <p>  AUTO KOMIS RETROCAR <br>Skup, sprzedaż, zamiana, komis.<br><br>Godziny otwarcia<br>pon-piąt.: 10 : 00 - 17 : 00<br>sobota: 10 : 00 - 14 : 00<br>niedziela: 11 : 00 - 14 : 00<br><br>Adres<br>Wrocławska 96, 45-711 Opole, woj. opolskie<br><br>Telefony<br>tel. 77 4411899 &nbsp; kom. 600 012 741<br></p>
         </div>
             
         <div id="okomisie">

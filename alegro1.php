@@ -18,7 +18,7 @@
 
         <div id="pasek">
             <ol>
-                  <li><a href="/alegro.php/">Start</a></li>
+                  <li><a href="/alegro.php">Start</a></li>
                   <li><a href="#">Oferta</a>
                     <ul>
                         <li><a href="#samochody">Samochody</a></li>

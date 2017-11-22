@@ -5,7 +5,7 @@ body {
 
 #container {
     overflow: hidden;
-    width: 1200px;;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     font-family: 'Lato', sans-serif;
@@ -13,7 +13,7 @@ body {
 }
 
 #header {
-    width 100%;
+    width: 100%;
     padding: 15px 0;
     background-color: #444444;
 }
@@ -188,4 +188,10 @@ ol > li > ul > li > a {
 .stopka a:hover {
     background-color: #777;
     color: #c12230;
+}
+
+#oferta {
+	height: 400px;
+    margin: 30px;
+	padding: 40px;
 }
