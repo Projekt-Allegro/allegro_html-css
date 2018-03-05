@@ -38,6 +38,30 @@ body {
     margin-bottom: 30px;
 }
 
+.logo img {
+	-webkit-transition: .6s linear;
+	-moz-transition: .6s linear;
+	-o-transition: .6s linear;
+	transition: .6s linear;
+
+
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.logo:hover img {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: none;
+}
+
+
 #pasek {
     display: block;
     padding: 10px 0;
