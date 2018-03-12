@@ -19,13 +19,7 @@
         <div id="pasek">
             <ol>
                   <li><a href="/alegro.php">Start</a></li>
-                  <li><a href="/alegro1.php">Oferta</a>
-                    <ul>
-                        <li><a href="#samochody">Samochody</a></li>
-                        <li><a href="#mototcykle">Motocykle</a></li>
-                        <li><a href="#inne">Inne</a></li>
-                    </ul>
-                  </li>
+                  <li><a href="/alegro1.php">Oferta</a></li>
                   <li><a href="#marki">Marki</a>
                       <ul>
                         <li><a href="#ford">Ford</a></li>
@@ -35,7 +29,7 @@
                         <li><a href="#fiat">Fiat</a></li>
                     </ul>
                   </li>
-                <li><a href="#ulubione">Ulubione</a></li>
+                <li><a href="/alegro_log.php">Konto</a></li>
             </ol>
             <div style="clear: both"></div>
         </div>
@@ -49,15 +43,16 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis feugiat turpis condimentum aliquam. Aenean at sem sit amet purus efficitur egestas quis eu orci. Vestibulum faucibus luctus enim, in dictum odio ullamcorper a. Phasellus sed augue lorem. Praesent nunc lorem, cursus vel mattis nec, cursus non mauris. Quisque sodales, magna ac accumsan rutrum, risus eros aliquam dolor, id euismod dui libero quis dolor. Sed condimentum dolor lectus, vitae ornare urna semper quis. Quisque eu ipsum quis lorem laoreet eleifend. Phasellus ac elit nec ante vulputate tristique.</p>
             <p>Morbi imperdiet orci non felis molestie dictum. Quisque finibus fermentum diam in tempus. Phasellus in iaculis neque. Nunc nec ipsum nulla. Duis quis venenatis nunc. Cras eros ipsum, pulvinar in quam non, rhoncus tincidunt metus. Sed et ipsum a felis eleifend eleifend. Praesent finibus sagittis pulvinar. Mauris ornare ac arcu vitae tincidunt.</p>
             </div>
-            <div style="clear:both"></div>
+        <div style="clear:both"></div>
                    
         <div class="stopka">
-            <a href="/onas/">O nas</a> 
-            <a href="/kontakt/">Kontakt</a> 
-            <a href="/pomoc/">Pomoc</a> 
-            <a href="/regulamin/">Regulamin</a>
+            <a  href="/onas/">O nas</a> 
+            <a  href="/kontakt/">Kontakt</a> 
+            <a  href="/pomoc/">Pomoc</a> 
+            <a  href="/regulamin/">Regulamin</a>
             <p>Stworzone przez: Grove Street™</p>
         </div>
-    </div>     
+    </div>
+	 
   </body>
 </html>

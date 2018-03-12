@@ -19,13 +19,7 @@
         <div id="pasek">
             <ol>
                   <li><a href="/alegro.php">Start</a></li>
-                  <li><a href="#">Oferta</a>
-                    <ul>
-                        <li><a href="#samochody">Samochody</a></li>
-                        <li><a href="#mototcykle">Motocykle</a></li>
-                        <li><a href="#inne">Inne</a></li>
-                    </ul>
-                  </li>
+                  <li><a href="/alegro1.php">Oferta</a></li>
                   <li><a href="#marki">Marki</a>
                       <ul>
                         <li><a href="#ford">Ford</a></li>
@@ -35,7 +29,7 @@
                         <li><a href="#fiat">Fiat</a></li>
                     </ul>
                   </li>
-                <li><a href="#ulubione">Ulubione</a></li>
+                <li><a href="/alegro_log.php">Konto</a></li>
             </ol>
             <div style="clear: both"></div>
         </div>
