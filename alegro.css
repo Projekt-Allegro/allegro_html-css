@@ -27,6 +27,14 @@ body {
     background-color: #FFFFFF;
 }
 
+#tabela {
+	font-family: 'Lato', sans-serif;
+	width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFFFF;
+}
 
 #header {
     width: 100%;

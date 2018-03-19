@@ -20,16 +20,8 @@
             <ol>
                   <li><a href="/alegro.php">Start</a></li>
                   <li><a href="/alegro1.php">Oferta</a></li>
-                  <li><a href="#marki">Marki</a>
-                      <ul>
-                        <li><a href="#ford">Ford</a></li>
-                        <li><a href="#bmw">BMW</a></li>
-                        <li><a href="#mazda">Mazda</a></li>
-                        <li><a href="#volkswagen">Volkswagen</a></li>
-                        <li><a href="#fiat">Fiat</a></li>
-                    </ul>
-                  </li>
-                <li><a href="/alegro_log.php">Konto</a></li>
+                  <li><a href="/alegro_gal.php">Galeria</a></li>
+                  <li><a href="/alegro_log.php">Konto</a></li>
             </ol>
         </div>
 		

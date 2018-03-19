@@ -20,16 +20,8 @@
             <ol>
                   <li><a href="/alegro.php">Start</a></li>
                   <li><a href="/alegro1.php">Oferta</a></li>
-                  <li><a href="#marki">Marki</a>
-                      <ul>
-                        <li><a href="#ford">Ford</a></li>
-                        <li><a href="#bmw">BMW</a></li>
-                        <li><a href="#mazda">Mazda</a></li>
-                        <li><a href="#volkswagen">Volkswagen</a></li>
-                        <li><a href="#fiat">Fiat</a></li>
-                    </ul>
-                  </li>
-                <li><a href="/alegro_log.php">Konto</a></li>
+                  <li><a href="/alegro_gal.php">Galeria</a></li>
+                  <li><a href="/alegro_log.php">Konto</a></li>
             </ol>
             <div style="clear: both"></div>
         </div>
@@ -38,13 +30,12 @@
                 <p>W naszej ofercie pojawia się wiele marek oraz modeli, które są automatycznie pobierane z naszej rozbudowanej bazy danych.</p>
 				<p>Dzięki poniższej wyszukiwarce znajdą Państwo swój wymarzony samochód!</p>
 			</div>
-				   
-				   <div id="szukacz" class="szukacz_graf">      
+							   <div id="szukacz" class="szukacz_graf">      
     <fieldset><legend>Wyszukiwarka samochodów</legend>
 	<form action = "baza.php" method = "post">
-		Czego szukasz?:<input type = "text" name = "1" value=""><br>
+		<!-- Czego szukasz?:<input type = "text" name = "1" value=""><br>
 
-        Marka: <?php
+        Lista dostępnych modeli: <?php
         $con=mysqli_connect("localhost","root","","komis");
         if (mysqli_connect_errno())
           {
@@ -64,8 +55,35 @@
           mysqli_free_result($result);
         }
         mysqli_close($con);
-        ?>
+        ?> -->
+		Marka: <select name="1">
+              <option value="">brak</option>
+              <option value="marka like 'BMW'">BMW</option>
+              <option value="marka like 'Mazda'">Mazda</option>
+              <option value="marka like 'Mercedes'">Mercedes</option>
+              <option value="marka like 'Opel'">Opel</option>
+              <option value="marka like 'Fiat'">Fiat</option>
+        </select>
 		
+		  Kolor: <select name="kat">
+              <option value="">brak</option>
+              <option value="'niebieski'">niebieski</option>
+              <option value="'czarny'">czarny</option>
+              <option value="'zielony'">zielony</option>
+              <option value="'czerwony'">czerwony</option>
+              <option value="'rozowy'">różowy</option>
+			  </select>
+			  
+		  Przebieg: <select name="przebieg">
+              <option value="">brak</option>
+              <option value="przebieg < 100000">mniejszy od 100000</option>
+              <option value="przebieg < 200000">mniejszy od 200000</option>
+              <option value="przebieg < 300000">mniejszy od 300000</option>
+              <option value="przebieg < 500000">mniejszy od 500000</option>
+              <option value="przebieg < 700000">mniejszy od 700000</option>
+              <option value="przebieg < 1000000">mniejszy od 1000000</option>
+			  </select>
+			  
 		Cena: <select name="cena">
               <option value="">brak</option>
               <option value="cena_pln < 10000">mniejsza od 10000</option>
@@ -76,15 +94,7 @@
               <option value="cena_pln < 100000">mniejsza od 100000</option>
         </select>
         
-        Przebieg :<select name="przebieg">
-              <option value="">brak</option>
-              <option value="przebieg < 100000">mniejszy od 100000</option>
-              <option value="przebieg < 200000">mniejszy od 200000</option>
-              <option value="przebieg < 300000">mniejszy od 300000</option>
-              <option value="przebieg < 500000">mniejszy od 500000</option>
-              <option value="przebieg < 700000">mniejszy od 700000</option>
-              <option value="przebieg < 1000000">mniejszy od 1000000</option>
-			  </select>
+      
         
 		<input type = "submit" id = "przycisk" value = "sprawdź">
 	   </form></fieldset>
