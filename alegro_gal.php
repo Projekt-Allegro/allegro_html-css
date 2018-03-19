@@ -26,6 +26,15 @@
             <div style="clear: both"></div>
         </div>
             
+			<div id="gallery">
+				  <ul id="navigation">
+					<li><img alt="" src="https://d-gm.ppstatic.pl/k/r/1/d0/fa/53cf6b54d6aef.jpg" /></li>
+					<li><img alt="" src="http://galeria.autotrader.pl/logos/firstpage/1748450136.jpg" /></li>
+					<li><img alt="" src="http://galeria.autotrader.pl/logos/firstpage/25550.jpg" /></li>
+					<li><img alt="" src="https://d-gm.ppstatic.pl/k/r/1/12/ed/51ffb405430f0.jpg" /></li>
+					<li><img alt="" src="http://galeria.autotrader.pl/logos/firstpage/24767.jpg" /></li>
+				  </ul>				  
+			</div>
                    
         <div class="stopka">
             <a  href="/onas/">O nas</a> 

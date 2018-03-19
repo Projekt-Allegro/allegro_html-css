@@ -71,7 +71,7 @@
               <option value="'czarny'">czarny</option>
               <option value="'zielony'">zielony</option>
               <option value="'czerwony'">czerwony</option>
-              <option value="'rozowy'">różowy</option>
+              <option value="'rozowy'">rozowy</option>
 			  </select>
 			  
 		  Przebieg: <select name="przebieg">

@@ -27,14 +27,6 @@ body {
     background-color: #FFFFFF;
 }
 
-#tabela {
-	font-family: 'Lato', sans-serif;
-	width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: 'Lato', sans-serif;
-    background-color: #FFFFFF;
-}
 
 #header {
     width: 100%;
@@ -270,4 +262,19 @@ ol > li > ul > li > a {
 .login {
 	margin: 4px;
 	padding: 2px;
+}
+
+#gallery {
+  overflow: auto;
+}
+
+#navigation {
+  list-style: none;
+}
+
+#navigation li {
+    margin-left: auto;
+    margin-right: auto;
+	width: 420px;
+	padding-top: 10px;
 }

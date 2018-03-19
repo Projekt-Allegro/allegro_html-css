@@ -26,6 +26,8 @@
             <div style="clear: both"></div>
         </div>
 		
+		
+		
 <?php header('Content-Type: text/html;charset=UTF-8');
 $conn = mysqli_connect('localhost', 'root', ''); //łączy z bazą
 $datab = mysqli_select_db($conn ,'komis'); // wybiera baze
@@ -61,12 +63,12 @@ $all = ob_get_contents();
 ob_end_clean();
 }elseif ($przebieg === "" && $cena === "" && $co === "") {
 ob_start();
-echo $select,' ', $skad, $gdzie,' ', $kolor;
+echo $select,' ', $skad, $gdzie,' kolor like ', $kolor;
 $all = ob_get_contents();
 ob_end_clean();
 }elseif ($kolor === "" && $co === "") {
 ob_start();
-echo $select,' ', $skad, $gdzie,' and ',$cena;
+echo $select,' ', $skad, $gdzie, ' ', $przebieg, ' and ',$cena;
 $all = ob_get_contents();
 ob_end_clean();
 }elseif ($co === "" && $przebieg === ""){
@@ -91,7 +93,7 @@ $all = ob_get_contents();
 ob_end_clean();
 }elseif ($co === "" && $cena === "") {
 ob_start();
-echo $select,' ', $skad, $gdzie,'kolor like ', $kolor,' and ', $przebieg;
+echo $select,' ', $skad, $gdzie,' kolor like ', $kolor,' and ', $przebieg;
 $all = ob_get_contents();
 ob_end_clean();
 }elseif ($co === ""){
